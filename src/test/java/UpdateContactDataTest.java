@@ -7,7 +7,6 @@ public class UpdateContactDataTest {
 
     private final static String URL = "https://api.smartsender.io/";
 
-
     @Test
     public void testUpdateContactDataPhoneNumber() {
         Specifications.installSpecification(Specifications.requestSpec(URL), Specifications.responseSpecOK200());
